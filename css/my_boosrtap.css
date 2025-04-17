@@ -1,0 +1,13 @@
+.my_special_text {
+    text-decoration: underline;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.my_backround_color {
+    background-color: #2f6cdd !important; /* strong blue */
+}
+
+.my_text_color {
+    color: #2f6cdd !important;
+}

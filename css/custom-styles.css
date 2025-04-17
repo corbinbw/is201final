@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f8;
+    color: #1c1c1c;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header_div {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #ff5f1f;
+    margin-bottom: 10px;
+  }
+  
+  h3, h4 {
+    color: #ff5f1f;
+    margin-bottom: 10px;
+  }
+  
+  .content_area {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .left_div {
+    flex: 0 0 180px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    height: fit-content;
+  }
+  
+  .main_div {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .footer_div {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  a {
+    color: #ff5f1f;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  a:hover {
+    color: #e63946;
+    text-decoration: underline;
+  }
+  
+  .special_text {
+    font-weight: bold;
+    font-style: italic;
+    color: #ff5f1f;
+  }
+  
+  .font_change {
+    font-size: 0.9em;
+    color: #777;
+    text-decoration: line-through;
+  }
+  
+  .list_text {
+    font-weight: bold;
+    color: #ff5f1f;
+  }
+  
+  .youtube,
+  .tableau {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .content_area {
+      flex-direction: column;
+    }
+  
+    .left_div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
